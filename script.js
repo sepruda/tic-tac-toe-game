@@ -16,5 +16,5 @@ const nine = document.getElementById('nine');
 
 $(squares).on('click', function(event){
 	
-	$(this).addClass('cross');
+	$(this).toggleClass('cross', 'circle');
 });

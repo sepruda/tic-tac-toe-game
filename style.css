@@ -16,5 +16,10 @@ table tr {
 
 }
 .cross {
-	background-color: red;
+	background: url(cross.png);
+	background-size: cover;
+}
+.circle {
+	background: url(circle.png);
+	background-size: cover;
 }
